@@ -1,0 +1,8 @@
+author="Bernhard Brodowsky"
+description="Help the lizards to defend against an upcoming desert prince."
+email="bernhard.brodowsky@gmail.com"
+title="The Desert Prince"
+type="campaign"
+dependencies=EOI_era_of_ilthan
+version="0.1.0"
+icon="misc/key.png"
