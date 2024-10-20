@@ -1,0 +1,60 @@
+name: WML
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out the repository
+      uses: actions/checkout@v4
+
+    - name: Create temporary directory to check out wesnoth
+      run: |
+        echo "wesnoth_dir=$(mktemp -d)/wesnoth_repo" >> "$GITHUB_ENV"
+
+    - name: Clone the Wesnoth Github repository without checking it out.
+      run: |
+        git clone --filter=blob:none --no-checkout --depth 1 --sparse --branch 1.18 https://github.com/wesnoth/wesnoth.git "$wesnoth_dir"
+
+    - name: Set sparse checkout to only fetch the data/ directory
+      run: |
+        git -C "$wesnoth_dir" sparse-checkout set data
+
+    - name: Checkout branch 1.18
+      run: |
+        git -C "$wesnoth_dir" checkout
+
+    - name: Create temporary directory to check out the Era of Ilthan
+      run: |
+        echo "ilthan_dir=$(mktemp -d)/ilthan_repo" >> "$GITHUB_ENV"
+
+    - name: Clone the Era of Ilthan Github repository without checking it out.
+      run: |
+        git clone --filter=blob:none --no-checkout --depth 1 --sparse https://github.com/Tinend/Wesnoth-Era-of-Ilthan.git "ilthan_dir"
+
+    - name: Set sparse checkout to only fetch the data/ directory of the Era of Ilthan
+      run: |
+        git -C "$ilthan_dir" sparse-checkout set data
+
+    - name: Checkout the Era of Ilthan
+      run: |
+        git -C "$ilthan_dir" checkout
+
+    - name: Run wmllint and filter out findings from core and fail if the output is non-empty
+      run: |
+        wmllint_out=$(mktemp);
+        "$wesnoth_dir/data/tools/wmllint" -S -d "$wesnoth_dir/data/core" "ilthan_dir/data/core" . 2>&1 | grep -v "wesnoth_repo" | grep -v "ilthan_repo" > "$wmllint_out" || true;
+        if [ -s "$wmllint_out"  ]; then { cat "$wmllint_out" ; false; } fi
+
+    - name: Run wmlindent and fail if the output is non-empty
+      run: |
+        wmlindent_out=$(mktemp);
+        "$wesnoth_dir/data/tools/wmlindent" -d . 2>&1 | cat > "$wmllindent_out" || true;
+        if [ -s "$wmlindent_out"  ]; then { cat "$wmlindent_out" ; false; } fi
+
+    - name: Run wmlscope and filter out findings from core and fail if the output is non-empty
+      run: |
+        wmlscope_out=$(mktemp);
+        "$wesnoth_dir/data/tools/wmlscope" "$wesnoth_dir/data/core" "$ilthan_dir/data/core" . 2>&1 | grep -v "wesnoth_repo" | grep -v "ilthan_repo" | grep -v "^#" > "$wmlscope_out" || true;
+        if [ -s "$wmlscope_out"  ]; then { cat "$wmlscope_out" ; false; } fi
