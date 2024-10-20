@@ -1,3 +1,5 @@
+[![WML](https://github.com/Lykos/wesnoth-The-Desert-Prince/actions/workflows/wml.yml/badge.svg)](https://github.com/Lykos/wesnoth-The-Desert-Prince/actions/workflows/wml.yml)
+
 # The Desert Prince
 
 **The Desert Prince** is a campaign for *The Battle for Wesnoth* that takes place within the custom *Era of Ilthan*. In this campaign, you take control of the **Lizard Alliance** and face off against the powerful **Desert Undead**, including the infamous **Desert Prince**.
