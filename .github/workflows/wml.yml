@@ -35,7 +35,7 @@ jobs:
 
     - name: Set sparse checkout to only fetch the data/ directory of the Era of Ilthan
       run: |
-        git -C "$ilthan_dir" sparse-checkout set data
+        git -C "$ilthan_dir" sparse-checkout set utils units factions
 
     - name: Checkout the Era of Ilthan
       run: |
