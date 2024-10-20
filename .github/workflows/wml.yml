@@ -9,7 +9,7 @@ jobs:
     - name: Check out the repository
       uses: actions/checkout@v4
 
-    - name: Create temporary directory to check out wesnoth
+    - name: Create temporary directories to check out wesnoth
       run: |
         echo "wesnoth_dir=$(mktemp -d)/wesnoth_repo" >> "$GITHUB_ENV"
 
@@ -27,7 +27,7 @@ jobs:
 
     - name: Create temporary directory to check out the Era of Ilthan
       run: |
-        echo "$ilthan_dir=$(mktemp -d)/ilthan_repo" >> "$GITHUB_ENV"
+        echo "ilthan_dir=$(mktemp -d)/ilthan_repo" >> "$GITHUB_ENV"
 
     - name: Clone the Era of Ilthan Github repository without checking it out.
       run: |
