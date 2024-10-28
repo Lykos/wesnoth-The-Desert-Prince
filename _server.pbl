@@ -1,8 +1,10 @@
 author="Bernhard Brodowsky"
-description="Help the lizards to defend against an upcoming desert prince."
+description="A small campaign for the Era of Ilthan with 7 levels. Help
+the lizards to defend their villages against attacking wood pirates and
+undead."
 email="bernhard.brodowsky@gmail.com"
+dependencies=EOI_era_of_ilthan
 title="The Desert Prince"
 type="campaign"
-dependencies=EOI_era_of_ilthan
-version="0.1.0"
+version="0.1.1"
 icon="misc/key.png"

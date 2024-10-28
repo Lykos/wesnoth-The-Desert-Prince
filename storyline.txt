@@ -1,0 +1,47 @@
+1. pirate_attack
+Das Echsendorf wird von Waldpiraten angegriffen.
+
+Karte:
+Unten hauptsächlich Wüste, das Dorf ist am Rande der Wüste, weiter oben beginnt verschiedenes Gelände, ein kleiner Grünstreifen wegen der Küste. An der Küste ist die Burg der Waldpiraten.
+
+Halbar (Korsar) spricht mit Sklavenfaenger Aramir, dass sie die Echsen als Sklaven nehmen wollen. Sieg=Halbar tot
+
+Man (Riesenechse, Albakar) und eine befreundete Magierechse (Rol Ziton) möchten dies nicht zulassen. Diese beiden dürfen nicht sterben und auch das Dorf (11-17,18-20/21) darf nicht betreten werden. Man kann nur Echsen und Magierechsen ausbilden.
+
+Nach der Schlacht:
+Ein Bote kommt und sagt, es sei schrecklich, ihr Dorf sei von Untoten angegriffen worden und werde gerade zerstört. Man möge helfen.
+
+2. last minute
+Eine Riesenechse verteidigt sich verzweifelt gegen Wüstenuntote. Smalltalk, Untote seien böse. Sie seien die schlimmsten Feinde der Echsen. Wood pirates seien auch schlimm. Blabla. Es gibt immer mehr Untote und es sieht so aus, als ob es wieder irgendeinen Untotenboss gibt, der eine Armee sammelt.
+Schlachtfeld: Wüste, Dorf mitte, Hügel oben und unten, rechts weg mit einzelnen Dörfern, am Ende Untotenboss (Hellebardier). Links auch Weg, man. Man ist aber sehr nah beim Dorf. Dieses Dorf ist schon teilweise mit Untoten bestückt. Man steuert die Dorfbewohnerechsen, da der Computer sonst zu dumm wäre. Wenn der Untote ein Dorf erobert, kommt automatisch eine Dorfbewohnerechse heraus.
+Dorfbewohnerechsen sind im Dorf. Es kommen immer welche aus den Häusern, wenn Untote diese erobern. Es dürfen nur begrenzt viele davon sterben. Die Riesenechse darf auch nicht sterben. Sieg=Untote tot.
+Aufgrund der letzten Worte des Untotenbosses merkt man, dass die Untoten tatsächlich eine Armee sammeln. Viel Geschwafel, schlussendlich kommen einige Schwarzkopfechsen, die sagen, ihre Heimat sei zerstört worden. Man kann diese nun ausbilden. Man beschliesst, dass die einzige Möglichkeit ist, die Drachen um Hilfe zu bitten. Es geht los in Richtung Süden.
+
+3. greedy mages
+Man trifft eine Expedition von mountain mages. Man wundert sich, Smalltalk unter Echsen, dann sagt man ihm, er solle aus der Wüste verschwinden. Der Boss ist ein gieriger Tank mage, der unbedingt Wüstenblumen stehlen möchte. Diese sind ein Schutz gegen Untote und daher wollen die Echsen sie unbedingt schützen, die Tank mages wollen sie stehlen, Provokationen, Schlacht.
+Sieg=Tank mage tot.
+Niederlage: Wüstenblumen geklaut.
+
+4. The dragons country
+Ziel: signpost erreichen, aber gefährliche Untote sitzen davor. der Boss ist ein desert_slayer. Mirmane, ein gelber Drache kommt beim ersten Kampf. Er und zwei Freunde (grün) schliessen sich einem an.
+
+Gegend ist unten links wasser, unten sonst vulkanisch und oben Wüste. Gebirge oben leicht links der Mitte. Der untote boss ist rechts, der Signpost rechts unten. Man ist links oben.
+
+5. At the dragons home
+Redeschlacht. Leider keine blassen Drachen zu haben, sind nicht in der Gegend und man hat nicht mehr viel Zeit. Rückreise beginnt.
+=> grüne Drachen sind ausbildbar
+
+6. a high priests grave
+Ein Tempel mit vier Grabwächtern drumrum steht im Zentrum. Ein Elitestreitwagenboss ist mit seinen Leuten gekommen. Sie wollen den Highpriest zum Leben erwecken, dies dauert jedoch einige Runden. Man muss sie rechtzeitig besiegen. Wenn man sie nicht in kurzer Zeit besiegt, erhalten sie einen Highpriest, die Schlacht ist aber dann noch nicht verloren, allerdings schwieriger.
+
+7. the prince
+Vermeintliche Endschlacht, normale Schlacht, Prinz ist Boss, schwierig, Prinz haut am Schluss ab.
+
+8. scorpion nest
+Eine black head lizard kommt und sagt, sie brauchen Hilfe, da Sumpfuntote angreifen. Man begegnet aber 
+unterwegs einem Nest von Skorpionen, einfache, kurze, kleine Schlacht.
+
+9. Uralians in danger
+Sumpfrand, gemischtes Dorf von Uralians und Black head Lizards, zwei entsprechende Verbuendete, Gegner sind 
+Sumpfuntote. Verbuendete sind schon umzingelt und muessen gerettet werden.
+
