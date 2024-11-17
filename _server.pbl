@@ -6,5 +6,5 @@ email="bernhard.brodowsky@gmail.com"
 dependencies=EOI_era_of_ilthan
 title="The Desert Prince"
 type="campaign"
-version="0.1.2"
+version="0.1.3"
 icon="misc/key.png"
